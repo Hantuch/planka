@@ -20,6 +20,8 @@ import NotificationsStep from '../../notifications/NotificationsStep';
 
 import styles from './Header.module.scss';
 
+import icon from '/pb_icon_white.svg';
+
 const POPUP_PROPS = {
   position: 'bottom right',
 };
@@ -96,7 +98,8 @@ const Header = React.memo(() => {
     <div className={styles.wrapper}>
       {!project && (
         <Link to={Paths.ROOT} className={classNames(styles.logo, styles.title)}>
-          PLANKA
+          <img src={icon} className={styles.icon}></img>
+          <span>{window.innerWidth <= 768 ? 'Workspace' : 'Powerbrain Workspace'}</span>
         </Link>
       )}
       <Menu inverted size="large" className={styles.menu}>

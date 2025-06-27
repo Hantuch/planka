@@ -19,6 +19,9 @@ import { isUsername } from '../../../utils/validator';
 
 import styles from './Content.module.scss';
 
+import icon from '/pb_icon_blue.svg';
+import logo from '/pb_logo_blue.svg';
+
 const createMessage = (error) => {
   if (!error) {
     return error;
@@ -170,7 +173,10 @@ const Content = React.memo(() => {
       <Grid verticalAlign="middle" className={classNames(styles.grid, styles.fullHeight)}>
         <Grid.Column computer={6} tablet={16} mobile={16}>
           <div className={styles.loginWrapper}>
-            <Header as="h1" textAlign="center" content="PLANKA" className={styles.formTitle} />
+            <div style={{ textAlign: 'center' }}>
+              <img src={window.innerWidth <= 768 ? icon : logo} className={styles.titleLogo}></img>
+            </div>
+            <Header as="h1" textAlign="center" content="Workspace" className={styles.formTitle} />
             <Header
               as="h2"
               textAlign="center"

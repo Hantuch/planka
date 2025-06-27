@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="39.063084mm"
+   height="23.679609mm"
+   viewBox="0 0 39.063084 23.679609"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="Powerbrain_Icon_Latest.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="mm"
+     width="235mm"
+     inkscape:zoom="3.1108586"
+     inkscape:cx="110.90186"
+     inkscape:cy="71.04148"
+     inkscape:window-width="2560"
+     inkscape:window-height="1367"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-60.416912,-115.39701)">
+    <g
+       id="g973">
+      <path
+         class="cls-4"
+         d="M 75.146266,120.73895 H 63.692454 a 3.2808333,3.2808333 0 0 0 -3.275542,3.27554 v 13.29531 a 1.7674166,1.7674166 0 0 0 3.534833,0 v -1.95527 h 11.194521 a 3.2808333,3.2808333 0 0 0 3.278187,-3.27554 v -8.0645 a 3.2808333,3.2808333 0 0 0 -3.278187,-3.27554 z m 0,11.0781 H 64.69787 v -7.54062 h 10.437813 z"
+         id="path14"
+         style="fill:#113559;stroke-width:0.264583" />
+      <path
+         class="cls-4"
+         d="M 93.648578,131.67153 H 82.713349 v -7.54327 h 9.752542 l 3.01625,-3.13266 A 3.2517291,3.2517291 0 0 0 93.90787,120.59343 H 82.713349 v -1.95527 a 1.7674166,1.7674166 0 1 0 -3.534833,0 v 13.29266 a 3.2781875,3.2781875 0 0 0 3.275542,3.27555 H 93.90787 a 3.2808333,3.2808333 0 0 0 3.286125,-3.27555 v -8.06185 a 3.2385,3.2385 0 0 0 -0.224896,-1.18004 l -3.320521,2.14842 z"
+         id="path16"
+         style="fill:#113559;stroke-width:0.264583" />
+      <polygon
+         class="cls-5"
+         points="633.83,21.36 643.01,24.19 611.59,44.55 625.84,24.04 616.11,20.24 647.64,4.17 "
+         id="polygon18"
+         style="fill:#fed900"
+         transform="matrix(0.26458333,0,0,0.26458333,-71.874753,114.2937)" />
+    </g>
+  </g>
+</svg>
