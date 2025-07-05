@@ -62,6 +62,14 @@ const Boards = React.memo(() => {
 
   const AddPopup = usePopup(AddStep);
 
+  const handleProjectSummaryClick = useCallback(() => {
+    // if (!canEditProject) {
+    //   return;
+    // }
+
+    dispatch(entryActions.openProjectSummaryModal());
+  }, [dispatch]);
+
   return (
     <div className={styles.wrapper} onWheel={handleWheel}>
       <div ref={tabsWrapperRef} className={styles.tabsWrapper}>
@@ -70,7 +78,9 @@ const Boards = React.memo(() => {
             {({ innerRef, droppableProps, placeholder }) => (
               // eslint-disable-next-line react/jsx-props-no-spreading
               <div {...droppableProps} ref={innerRef} className={styles.tabs}>
-                <Summary key={0} id={0} index={0}/>
+                <Button className={styles.addButton} onClick={handleProjectSettingsClick}>
+                  Summary
+                </Button>
                 {boardIds.map((boardId, index) => (
                   <Item key={boardId} id={boardId} index={index+1} />
                 ))}
